@@ -6,6 +6,11 @@ app.get("/", (req, res) => {
     res.send("Hello from Dockerized Express!");
 });
 
+
+
+// new API 
+
+ 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
